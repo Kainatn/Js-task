@@ -210,6 +210,62 @@
 // Task 1
 
 // Task 2
-// Task 3
-// Task 4
+// var a = 2, b = 1;
+// var result = --a - --b + ++b + b--;
+// Explain the output at each stage:
+// here --a means value of a become 1
+//      --b means value of b become 0 
+//      if we substrcat a - b means 1 -0 = 1  
+//      ++b means value of  b is 2
+//      b-- means value of b become 0 
+//      if we add b + b means 2 + 0 =2
+//      and 2 +1 = 3 so the answe is =3
 
+// Task 3
+// var name = prompt("Please enter your name");
+// document.write('Hello ', name);
+
+// Task 5
+// var number = prompt("Please enter any  number");
+// document.write('Table of ', number, '<br>');
+// for (var i = 1; i <= 10; i++) {
+//     const element = i * number;
+//     document.write(number, ' x ', i, ' = ', element, "<br>");
+// }
+
+// Task 6
+// var subject1 = prompt("Please enter subject  1");
+// var subject2 = prompt("Please enter subject  2");;
+// var subject3 = prompt("Please enter subject  3");;
+// var subject1Marks = prompt("Please enter subject 1  marks");
+// var subject2Marks = prompt("Please enter subject 2  marks");;
+// var subject3Marks = prompt("Please enter subject 3  marks");;
+// var totalMarks = 100;
+// document.write("<table cellspacing='5' border='1'>");
+// document.write(" <tr><td>");
+// document.write(" <th>Subject");
+// document.write(" <th>Total Marks");
+// document.write(" <th>Obtained Marks");
+// document.write(" <th>Percentage");
+// document.write(" </tr>");
+// document.write(" <tr>");
+// document.write(" <td>", subject1, "</td>");
+// document.write(" <td>", totalMarks, "</td>");
+// document.write(" <td>", subject1Marks, "</td>");
+// document.write(" <td>", subject1Marks / totalMarks * 100, "% </td>");
+// document.write(" </tr>");
+// document.write(" <tr>");
+// document.write(" <td>", subject2, "</td>");
+// document.write(" <td>", totalMarks, "</td>");
+// document.write(" <td>", subject2Marks, "</td>");
+// document.write(" <td>", subject2Marks / totalMarks * 100, "% </td>");
+// document.writeln(" </tr>");
+// document.write(" <tr>");
+// document.write(" <td>", subject3, "</td>");
+// document.write(" <td>", totalMarks, "</td>");
+// document.write(" <td>", subject2Marks, "</td>");
+// document.write(" <td>", subject3Marks / totalMarks * 100, "% </td>");
+// document.writeln(" </tr>");
+// document.writeln("</table>");
+
+// Chapter 9 Task 1
